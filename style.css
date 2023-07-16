@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(255, 176, 86);
+}
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vw;
+    height: 60vw;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
+}
+
+.blackButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.grayButton {
+    background-color: rgba(128, 128, 128, 0.411);
+    color: black;
+}
+
+.grayButton:hover {
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+.rainbowButton {
+    background: linear-gradient(310deg, #f65cfc, #ebf8e1, #583cf6);
+}
+
+.rainbowButton:hover {
+    background: linear-gradient(210deg, #20ff02, #ebf8e1, #aecc03);
+}
+
+.whiteButton {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.whiteButton:hover {
+    background-color: white;
+    color: #000;
+}
+
+input {
+    width: 180px;
+    outline: none;
+    padding: 0.2rem;
+}
+  
+.mode {
+    margin-bottom: 5px;
+}
+
+.error {
+    display: none;
+    color: crimson;
+}
+
+.board {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;
+    box-shadow: 0 0 10px 0;
+    margin-top: 1rem;
+}
+
+.board:hover {
+    cursor: pointer;
+}
